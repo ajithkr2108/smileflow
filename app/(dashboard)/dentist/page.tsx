@@ -1,3 +1,3 @@
 export default function DentistPage() {
-    return <h1>Dentist Dashboard</h1>;
-  }
+  return <h1>Dentist Dashboard</h1>;
+}

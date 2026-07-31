@@ -1,3 +1,3 @@
 export default function ReceptionPage() {
-    return <h1>Reception Dashboard</h1>;
-  }
+  return <h1>Reception Dashboard</h1>;
+}
