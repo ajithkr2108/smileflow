@@ -1,7 +1,4 @@
-const myPatientsToday = [
-  { id: 1, patient: "Anjali Nair", time: "9:00 AM", service: "Cleaning" },
-  { id: 2, patient: "Sara Thomas", time: "1:00 PM", service: "Filling" },
-];
+import { myPatientsToday } from "@/lib/data";
 
 export default function DentistPage() {
   return (
