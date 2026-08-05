@@ -1,36 +1,47 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Modern Dent Care — SmileFlow
+
+A production-quality Dental Clinic Management System built for Modern Dent Care, a real dental clinic. SmileFlow lets patients book appointments online and gives clinic staff dedicated dashboards to manage their day.
+
+## Live Demo
+
+_Coming soon — deployed on Vercel_
+
+## Features
+
+- **Public website** — Home, About, Services, Doctors, and Contact pages
+- **Reception dashboard** — view today's appointments at a glance
+- **Dentist dashboard** — view today's patients
+- **Admin dashboard** — clinic-wide overview stats
+- Shared sidebar navigation across all staff dashboards
+- Fully responsive, built mobile-first with Tailwind CSS
+
+## Tech Stack
+
+- **Framework:** Next.js (App Router)
+- **Language:** TypeScript
+- **Styling:** Tailwind CSS
+- **Planned:** PostgreSQL + Prisma, Auth.js, React Hook Form + Zod, FullCalendar, SMS notifications
+
+## Project Structure
 
 ## Getting Started
 
-First, run the development server:
-
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Roadmap
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- [x] Public site with real content
+- [x] Dashboard shells with placeholder data
+- [ ] Real authentication (Auth.js) protecting staff dashboards
+- [ ] PostgreSQL database with Prisma
+- [ ] Real appointment booking flow
+- [ ] SMS confirmations
 
-## Learn More
+## Author
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Built by [Ajith K R](https://github.com/ajithkr2108) as a learning project and a real tool for Modern Dent Care.
