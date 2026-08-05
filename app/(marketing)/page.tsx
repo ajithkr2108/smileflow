@@ -1,3 +1,4 @@
+import Link from "next/link";
 export default function Home() {
   return (
     <main className="min-h-screen bg-[#FAFAFA]">
@@ -23,9 +24,9 @@ export default function Home() {
           Modern Dent Care lets patients book appointments online and helps
           our staff manage the day — no more paper schedules.
         </p>
-        <button className="mt-8 px-6 py-3 rounded-full bg-[#0EA5A0] text-white font-medium hover:bg-[#0c8a86] transition">
+        <Link href="/contact" className="mt-8 inline-block px-6 py-3 rounded-full bg-[#0EA5A0] text-white font-medium hover:bg-[#0c8a86] transition">
           Book an Appointment
-        </button>
+        </Link>
       </section>
 
       <section className="px-6 py-16 bg-white">
@@ -55,9 +56,11 @@ export default function Home() {
         <h2 className="text-2xl font-semibold text-white">
           Ready to book your visit?
         </h2>
-        <button className="mt-6 px-6 py-3 rounded-full bg-white text-[#0EA5A0] font-medium hover:bg-gray-100 transition">
+        <Link
+          href="/contact"
+          className="mt-6 inline-block px-6 py-3 rounded-full bg-white text-[#0EA5A0] font-medium hover:bg-gray-100 transition">
           Book an Appointment
-        </button>
+        </Link>
       </section>
     </main>
   );
