@@ -1,7 +1,6 @@
 export default function Home() {
   return (
     <main className="min-h-screen bg-[#FAFAFA]">
-      {/* Hero */}
       <section className="px-6 pt-24 pb-20 text-center max-w-3xl mx-auto">
         <h1 className="text-5xl font-bold tracking-tight text-[#172033]">
           Dental care, without the paperwork.
@@ -21,15 +20,14 @@ export default function Home() {
           />
         </svg>
         <p className="text-lg text-[#64748B] max-w-xl mx-auto">
-          SmileFlow lets patients book appointments online and helps clinic
-          staff manage their day — no more paper schedules.
+          Modern Dent Care lets patients book appointments online and helps
+          our staff manage the day — no more paper schedules.
         </p>
         <button className="mt-8 px-6 py-3 rounded-full bg-[#0EA5A0] text-white font-medium hover:bg-[#0c8a86] transition">
           Book an Appointment
         </button>
       </section>
 
-      {/* Why SmileFlow */}
       <section className="px-6 py-16 bg-white">
         <div className="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-10 text-center">
           <div>
@@ -53,7 +51,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* CTA band */}
       <section className="px-6 py-16 text-center bg-[#0EA5A0]">
         <h2 className="text-2xl font-semibold text-white">
           Ready to book your visit?

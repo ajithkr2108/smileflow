@@ -12,7 +12,7 @@ export default function DoctorsPage() {
             <div className="max-w-2xl mx-auto text-center">
                 <h1 className="text-4xl font-bold text-[#172033]">Our Dentists</h1>
                 <p className="mt-4 text-lg text-[#64748B]">
-                    Meet the team taking care of your smile.
+                    Meet the dentists at Modern Dent Care.
                 </p>
             </div>
 
